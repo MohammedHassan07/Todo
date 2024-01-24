@@ -1,0 +1,104 @@
+.nav {
+
+    background-color: #145C74;
+    color: white;
+    padding: 6px;
+}
+
+aside {
+
+    width: 25vw;
+    height: 100vh;
+    background-image: url(./back.jpeg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+aside div {
+
+    width: 100%;
+}
+
+main {
+
+    width: 75vw;
+    height: 100vh;
+    background-color: #9CCEDE;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 29px;
+}
+
+input,
+textarea {
+
+    width: 100%;
+    height: 33px;
+    padding: 6px;
+    font-size: 18px;
+    border-radius: 7px;
+    border: 2px solid #145C74;
+    background-color: #9CCEDE;
+    color: #145C74;
+}
+
+textarea {
+
+    height: 30vh;
+}
+
+input:focus,
+textarea:focus {
+
+    outline: none;
+}
+
+#warning{
+    text-align: center;
+    font-size: 12px;
+    color: red;
+    font-weight: 600;
+    visibility: collapse;
+}
+
+.btn-container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    gap: 13px;
+    margin-top: 12px;
+}
+
+.btn {
+
+    padding: 6px;
+    font-size: 16px;
+    background: #145C74;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+    transition: all 0.2s ease-in;
+}
+
+.btn:hover {
+
+    background-color: #9CCEDE;
+    color: #145C74;
+}
+
+#btn-add-task {
+
+    width: 32%;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./utils.css">
+    <link rel="stylesheet" href="./index.css">
+    <title>ToDo</title>
+</head>
+
+<body>
+
+    <div class="t-center nav">
+
+        <h2>ToDo List</h2>
+    </div>
+
+    <div class="flex">
+        <aside>
+
+            <div>
+                <input id="title" type="text" placeholder="Title">
+            </div>
+
+            <div>
+
+                <textarea id="description" placeholder="Description"></textarea>
+            </div>
+
+            <div id="warning">
+                <p>Length of the Title should be minimum of 5</p>
+                <p>Length of the Description should be minimum of 8</p>
+            </div>
+
+            <div class="btn-container">
+                <button id="btn-add-task" class="btn">Add</button>
+            </div>
+
+        </aside>
+        <main>
+            <div id="todos" class="card-container">
+
+              
+            </div>
+        </main>
+    </div>
+
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
